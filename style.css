@@ -1,0 +1,94 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 15, 2016, 4:57:15 PM
+    Author     : Rares
+*/
+
+@font-face
+{
+    font-family: FrutigerLight;
+    src: url('fonts/FrutigerLTStd-Light.eot');
+    src: local('☺'), url('fonts/FrutigerLTStd-Light.woff') format('woff'), url('/fonts/FrutigerLTStd-Light.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: FrutigerBold;
+    src: url('fonts/FrutigerLTStd-Bold.eot');
+    src: local('☺'), url('fonts/FrutigerLTStd-Bold.woff') format('woff'), url('/fonts/FrutigerLTStd-Bold.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: Spacer;
+    src: url('fonts/Spacer.eot');
+    src: local('☺'), url('fonts/Spacer.woff') format('woff'), url('/fonts/Spacer.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: spacerregular;
+    src: url('fonts/spacerregularwebfont.eot');
+    src: local('☺'), url('fonts/spacerregularwebfont.woff') format('woff'), url('/fonts/spacerregularwebfont.ttf') format('truetype');
+}
+body{
+     font-family: 'FrutigerBold', Helvetica, Arial, sans-serif;
+     padding: 0px;
+      margin: 0px;
+}
+.wrapper {
+    width: 100%;
+    height: 100%;
+    background-image: url('images/bg.png');
+    background-position: top;
+}
+
+.content{padding-top:300px;}
+.content .title{  font-family: 'FrutigerBold', Helvetica, Arial, sans-serif; font-size:58px; text-align:center; display:block;}
+.content .subtitle{  font-family: 'Spacer', Helvetica, Arial, sans-serif; font-size:29px; display:block; text-align:center;     direction: rtl; font-weight:bold;}
+.content .text{ font-size: 23px;
+    display: block;
+    text-align: center;
+    direction: rtl;
+    font-family: 'Spacer', Helvetica, Arial, sans-serif;
+    width: 380px;
+    margin: 30px auto;}
+.button_area{
+    text-align: center;
+    height: 50px;
+    margin-top: 50px;
+}
+.button_area .btn {
+    background: url('images/btn.png') no-repeat;
+    width: 235px;
+    display: block;
+    text-align: center;
+    height: 51px;
+    line-height: 45px;
+    margin: 0 auto;
+    font-size: 22px;
+    text-indent:35px;
+    font-family: 'Spacer', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+
+.logo{background: url('images/logo.png') no-repeat; display:block; text-align:center; width:335px; height:32px; margin: 50px auto 0 auto;}
+
+.footertext{
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+    font-family: 'Spacer', Helvetica, Arial, sans-serif;
+    font-size:23px;
+    direction: rtl;
+}
+
+.marginT{ margin-top: 100px;}
+.bolder{font-weight:bold;}
